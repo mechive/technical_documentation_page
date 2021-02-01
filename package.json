@@ -1,0 +1,24 @@
+{
+  "name": "technical_documentation_page",
+  "version": "1.0.0",
+  "description": "A Free Code Camp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass -w scss/ -o css/ --recursive"
+  },
+  "keywords": [
+    "technical",
+    "documentation",
+    "page",
+    "mike",
+    "beckett",
+    "freecodecamp",
+    "project"
+  ],
+  "author": "Mike Beckett",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
